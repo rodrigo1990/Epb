@@ -178,11 +178,13 @@ section#organizacion {
   width: 195px;
   font-size: 1.96rem;
   font-family: Ubuntu-Regular;
+  transition:background-color 0.5s;
 }
 
 #organizacion ul li:hover{
-  background-color:rgb(189,27,33,0.9);
+  background-color:rgba(189,27,33,0.9);
   color:white;
+  transition:background-color 0.5s;
 }
 
 
@@ -441,6 +443,7 @@ section#organizacion {
   border-radius: 10px;
   font-family: Ubuntu-Regular;
   cursor:pointer;
+  transition:background-color 0.5s;
 }
 
 
@@ -613,7 +616,7 @@ textarea{
 /* -- nav -- */
 
 .owl-theme .owl-nav {
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
 }
@@ -628,7 +631,7 @@ textarea{
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-    background: #6195FF;
+    background: red;
     color: #FFF;
   	padding: 0px;
   	width: 50px;
@@ -647,8 +650,14 @@ textarea{
 }
 
 .owl-theme .owl-nav [class*='owl-']:hover {
-    opacity: 0.8;
-    background: #6195FF;
+        opacity: 0.8;
+    background: black;
+    transition: background 0.5s;
+}
+
+
+button:focus{
+  outline:none;
 }
 
 

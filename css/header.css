@@ -50,6 +50,18 @@ ul.main-nav{
 
 }
 
+@-moz-document url-prefix() {
+  .navbar-right {
+    margin-right: -30px;
+}
+}
+
+@supports (-ms-ime-align:auto) {
+    .nav > li > a{
+      padding:10px 4px !important;
+    }
+}
+
 
 /*MOBILE NAV*/
 
@@ -84,6 +96,9 @@ ul.main-nav{
     display:none;
 
   }
+
+
+
 
 
 

@@ -35,7 +35,7 @@
 	<div class="row">
 		<div class="container">
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-				<ul>
+				<ul class="flex">
 					<li> <img src="imagenes/quienes_somos/1.png"  class="img-responsive"alt="Estudio Palmero Belizan Equipo"> </li>
 					<li> <img src="imagenes/quienes_somos/2.png"  class="img-responsive"alt="Estudio Palmero Belizan Equipo"></li>
 				</ul>
@@ -66,7 +66,7 @@
 		<div class="esp-cont" style="   ">
 			<div class="center-block" style="">
 				<ul class="left">
-					<li>Administracìón</li>
+					<li>Administración</li>
 					<li>Operaciones</li>
 					<li>Capacitación</li>
 				</ul>
@@ -270,11 +270,31 @@
 		<hr>
 	</div>
 	<div class="container">
-		<ul class="flex">
-			<li><img src="imagenes/clientes/1.png" alt=""></li>
-			<li><img src="imagenes/clientes/2.png" alt=""></li>
-			<li><img src="imagenes/clientes/3.png" alt=""></li>
-		</ul>
+		<div  class="owl-two owl-carousel owl-theme">
+			<div>
+				<ul class="flex">
+					<li><img src="imagenes/clientes/1.png" alt=""></li>
+					<li><img src="imagenes/clientes/2.png" alt=""></li>
+					<li><img src="imagenes/clientes/3.png" alt=""></li>
+				</ul>
+			</div>
+			<div>
+				<ul class="flex">
+					<li><img src="imagenes/clientes/1.png" alt=""></li>
+					<li><img src="imagenes/clientes/2.png" alt=""></li>
+					<li><img src="imagenes/clientes/3.png" alt=""></li>
+				</ul>
+			</div>
+			<div>
+				<ul class="flex">
+					<li><img src="imagenes/clientes/1.png" alt=""></li>
+					<li><img src="imagenes/clientes/2.png" alt=""></li>
+					<li><img src="imagenes/clientes/3.png" alt=""></li>
+				</ul>
+			</div>
+			
+		</div>
+
 	</div>
 </section>
 <section id="reconocimientos">
