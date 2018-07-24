@@ -103,6 +103,11 @@ i{
 }
 
 
+label{
+  font-family: Ubuntu-Regular;
+}
+
+
 @media only screen and (max-width: 768px){
   .flex{
     flex-direction:column;
