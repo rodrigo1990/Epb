@@ -1,0 +1,25 @@
+/*------------------------------------*\
+  footer
+\*------------------------------------*/
+.footer-icon{
+     font-size: 13pt;
+    margin-left: 12px;
+    color: white;
+    vertical-align: text-bottom;
+}
+
+footer{
+	padding:2%;
+}
+
+footer ul li{
+	font-family: Ubuntu-Regular;
+	margin-left: 5px;
+}
+
+@media only screen and (max-width: 768px){
+  footer p.left, footer a.left{
+	float:none;
+  }
+}
+

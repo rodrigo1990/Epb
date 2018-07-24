@@ -1,0 +1,684 @@
+/*------------------------------------*\
+	General
+\*------------------------------------*/
+body{
+  overflow-x:hidden;
+}
+
+
+h1,h4,h3{
+  color:#BD1B21;
+  font-family: RobotoCondensed-Bold;
+}
+
+h1>span,h4>span{
+  font-family:RobotoCondensed-Light;
+}
+
+
+
+
+hr{
+  background-color:#BD1B21;
+  height: 4px;
+  width: 50px;
+  margin-top: 1px !important;
+}
+
+p{
+  font-size: 1.6rem;
+  font-family:Ubuntu-Regular;
+
+}
+
+.flex{
+      display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: stretch;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+}
+ul{
+  list-style: none;
+  padding:0;
+}
+.left{
+	float:left;
+}
+
+.right{
+  float:right;
+}
+
+
+
+.background{
+
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.overlap {
+    display: none;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1000;
+    position: fixed;
+}
+
+#slider-principal{
+  margin-top: 5%;
+}
+
+.btn{
+  padding: 6px;
+  width: 74px;
+  color: white;
+  cursor:pointer;
+  color:#BD1B21; 
+  transition:background-color 0.25s;
+  font-family: Montserrat-Bold;
+}
+
+.btn:hover{
+  background-color: #BD1B21;
+  color:white;
+  transition:background-color 0.25s;
+}
+
+
+i{
+  font-size: 15pt !important;
+}
+
+
+.inline{
+  display:inline-block;
+  text-align: center !important;
+}
+
+
+@media only screen and (max-width: 768px){
+  .flex{
+    flex-direction:column;
+  }
+
+  h1,h2,h3{
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  footer p{
+    text-align: center !important;
+  }
+}
+
+/*------------------------------------*\
+	Quienes somos
+\*------------------------------------*/
+
+
+section#quienes_somos{
+  padding:3%;
+}
+
+a.download-button{
+  background-color:#BD1B21;
+  border-radius: 4px; 
+  padding:10px;
+  color:white;
+}
+
+
+/*------------------------------------*\
+	Equipo
+\*------------------------------------*/
+
+#equipo p, #equipo h1{
+  color:white !important;
+}
+
+#equipo .text-cont{
+	padding-top:10%;
+}
+
+
+/*------------------------------------*\
+	Organizacion
+\*------------------------------------*/
+
+section#organizacion {
+  padding:2% 2% 5% 2%;
+}
+
+#organizacion ul{
+	list-style: none;
+  margin-left: 36px;
+}
+
+#organizacion ul li h3{
+  margin:0;
+}
+
+#organizacion ul li{
+  padding: 10px;
+  text-align: center;
+  border-radius: 2px;
+  background-color: rgba(255,255,255,0.5);
+  margin-top: 14px;
+  cursor:pointer;
+  width: 195px;
+  font-size: 1.96rem;
+  font-family: Ubuntu-Regular;
+}
+
+#organizacion ul li:hover{
+  background-color:rgb(189,27,33,0.9);
+  color:white;
+}
+
+
+
+#organizacion ul .big{
+  padding: 28px;
+  margin-bottom: 2px;
+}
+
+
+
+#organizacion .esp-cont{
+   width: 1085px;
+   height: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+
+#organizacion .center-block{
+  width: 762px;
+  height: 200px;
+}
+.esp-cont{
+	width: 962px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 768px){
+ .esp-cont{
+  width: auto;
+    height: auto;
+}
+
+#organizacion .left{
+  float:none;
+}
+
+
+#organizacion .esp-cont{
+   width:auto;
+   height:auto;
+}
+
+#organizacion .center-block{
+  width: auto;
+  height: auto;
+}
+
+#organizacion ul li{
+  margin-left:auto;
+  margin-right: auto;
+  display:block;
+}
+}
+
+
+@media only screen and (max-width: 1000px) and (orientation:landscape){
+#organizacion .center-block {
+    width: auto;
+    /* height: 200px; */
+}
+
+#organizacion .esp-cont {
+    width: auto;
+ 
+}
+}
+
+
+/*------------------------------------*\
+  RESPONSABILIDAD SOCIAL
+\*------------------------------------*/
+
+
+#resp-social{
+  padding:0 !important;
+}
+
+#resp-soc-background{
+  background-image: url("../imagenes/resp-social/background.jpg");
+  height: 799px;
+}
+
+.slider-cont{
+  border-top:8px solid #BD1B21;
+}
+
+/*------------------------------------*\
+	Porque
+\*------------------------------------*/
+#porque{
+  background-color: #911B21;
+  padding-bottom:2%;
+}
+
+#porque p, #porque h1{
+  color:white;
+  
+}
+
+#porque p{
+  font-family: Ubuntu-Regular;
+}
+
+#porque hr {
+  background-color: white;
+}
+
+#porque .img-cont{
+      background-color: white;
+    border-radius: 50%;
+    width: 123px;
+    padding: 26px;
+}
+
+
+#porque ul{
+	list-style: none;
+	/*width: 778px;*/
+}
+
+
+#porque ul li{
+	margin-left: 2%;
+  text-align: center;
+
+}
+
+#porque .subtitulo{
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 768px){
+  #porque ul{
+  width: auto;
+}
+}
+
+
+/*------------------------------------*\
+  Valores
+\*------------------------------------*/
+
+#valores  img{
+  margin-right: 25px;
+}
+
+#valores .right {
+  text-align: center !important;
+}
+
+#valores .row{
+  background-color: white;
+    height: 251px;
+    padding: 5%;
+}
+
+#valores .row:hover{
+    background-color: #E6E7E8;
+
+}
+
+#valores h4{
+  color:;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+  #valores ul{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+#valores .right{
+      float: none;
+    height: 87px;
+    width: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+
+}
+
+#valores .right .left{
+  float:none;
+  text-align: center;
+}
+
+#valores .row{
+  height: auto;
+}
+#valores img{
+  margin:0 !important;
+}
+}
+
+@media only screen and (max-width: 1000px) and (orientation:landscape){
+#organizacion .center-block {
+    width: auto;
+    /* height: 200px; */
+}
+
+#organizacion .esp-cont {
+    width: auto;
+ 
+}
+}
+
+
+/*------------------------------------*\
+  reconocimientos
+\*------------------------------------*/
+
+#rec-background{
+  background-image: url("../imagenes/reconocimientos/background.jpg");
+  height: 740px;
+}
+
+#reconocimientos ul li{
+  width: 134px;
+  text-align: center;
+}
+
+
+/*------------------------------------*\
+  Nuestra tecnologia
+\*------------------------------------*/
+
+#tecnologia{
+  padding:2%;
+}
+
+
+#tecnologia ul li{
+  padding: 35px;
+  /*border: 1px solid grey;*/
+  width: 211px;
+  height: 148px;
+  flex: 1 1 auto;
+  /* margin-top: 1%; */
+  /* margin-left: 32px; */
+  text-align: center;
+  margin: 18px 19px 20px 22px;
+  max-width: 231px;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-family: Ubuntu-Regular;
+  cursor:pointer;
+}
+
+
+#tecnologia ul li:hover{
+  background-color: rgba(189,27,33,0.85);
+  transition:background-color 0.5s;
+
+}
+
+
+#tecnologia ul li .one-line{
+  line-height: 71px;
+}
+
+
+/*------------------------------------*\
+  Clientes
+\*------------------------------------*/
+section#clientes{
+  padding:2% 2% 5%;
+}
+
+
+
+
+/*------------------------------------*\
+  servicios
+\*------------------------------------*/
+#lista-servicios{
+  padding:3%;
+}
+
+
+#title-servicios{
+  background-color: #911B21;
+  padding:1% 2% 3%;
+}
+
+
+#title-servicios h1,#title-servicios p{
+  color:white;
+}
+
+#title-servicios hr{
+  background-color: white;
+}
+
+
+#below-servicios{
+  background-color: #BD1B21;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    margin-top: -29px;
+    border-radius: 8px;
+    color: white;
+}
+
+
+#lista-servicios h4{
+  font-family: Ubuntu-Bold;
+}
+
+#below-servicios h3{
+  color:white !important;
+  font-family: Ubuntu-Regular;
+}
+
+
+
+@media only screen and (max-width: 768px){
+ #below-servicios{
+    margin-top: -10px;
+  
+}
+}
+
+
+
+
+/*------------------------------------*\
+  contacto
+\*------------------------------------*/
+
+#contacto i{
+  font-size: 17pt;
+}
+
+#contacto-form .left{
+  margin-left: 5%;
+}
+
+#contacto-form i.left{
+  margin-left: 0;
+}
+
+#contacto-form img{
+  margin-top: 5%;
+}
+
+input{
+  height:21px !important;
+}
+
+textarea{
+  height: 80px !important;
+}
+
+#contacto-form ul{
+  margin-top: 20px;
+}
+
+#contacto-form ul li{
+  margin-top: 20px;
+  border-bottom:1px solid #bbbbbb;
+}
+
+#contacto-form ul li h4{
+  font-weight: bolder;
+}
+
+
+@media only screen and (max-width: 768px){
+
+
+  #contacto-form i.left{
+  margin-left: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#contacto-form .left {
+    margin-left: auto;
+    float:none;
+}
+
+#contacto-form img{
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+}
+
+
+
+
+/*------------------------------------*\
+	Owl theme
+\*------------------------------------*/
+
+/* -- dots -- */
+
+.owl-dots{
+	margin-top: -5% !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    border: none;
+    background: white;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+    opacity: 0.3;
+}
+
+
+/* -- nav -- */
+
+.owl-theme .owl-nav {
+    opacity: 0;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+.owl-theme:hover .owl-nav {
+    opacity: 1;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background: #6195FF;
+    color: #FFF;
+  	padding: 0px;
+  	width: 50px;
+  	height: 50px;
+  	border-radius:3px;
+  	line-height: 50px;
+  	margin: 0;
+}
+
+.owl-theme .owl-prev {
+    left: 0px;
+}
+
+.owl-theme .owl-next {
+    right: 0px;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    opacity: 0.8;
+    background: #6195FF;
+}
+
+
+/*------------------------------------*\
+  Back to top
+\*------------------------------------*/
+
+#back-to-top {
+    display:block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #BD1B21;
+    border-radius:3px;
+    color: #FFF;
+    z-index: 9999;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    cursor: pointer;
+}
+
+#back-to-top:after {
+    content: "\f106";
+    font-family: 'FontAwesome';
+}
+
+#back-to-top:hover {
+    opacity: 0.8;
+}
