@@ -26,12 +26,12 @@ ul.main-nav{
 }
 
 .main-nav i{
-	color:black;
+	color:#BD1B21;
 }
 
 
 .main-nav>li.active>a{
-     color:red !important;
+     color:#BD1B21 !important;
     transition:color 0.5s;
 }
 
@@ -66,11 +66,11 @@ ul.main-nav{
 /*MOBILE NAV*/
 
 .mobile-nav>li.active>a{
-     color:red !important;
+     color:#BD1B21 !important;
     transition:color 0.5s;
 }
 
-.mobile-nav>li>a:after {
+/*.mobile-nav>li>a:after {
         content: "";
         display: block;
         background-color: #BD1B21;
@@ -79,9 +79,18 @@ ul.main-nav{
         -webkit-transition: 0.2s width;
         transition: 0.2s width;
   
-    }
+    }*/
 .mobile-nav>li>a:hover:after, .mobile-nav>li.active>a:after {
         width: 90%;
+}
+
+
+.mobile-nav>li>a>i{
+  color:#911B21;
+}
+
+.mobile-nav .left{
+  margin-left: -2px;
 }
 
 /*END OF MOBILE NAV*/
@@ -91,6 +100,9 @@ ul.main-nav{
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
 }
+
+
+
 
 .mobile-nav{
     display:none;

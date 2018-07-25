@@ -6,13 +6,20 @@ body{
 }
 
 
-h1,h4,h3{
+h1{
+   color:#BD1B21;
+  font-family: RobotoCondensed-Bold;
+  letter-spacing: 2px;
+  font-family: 4.5rem;
+}
+
+h4,h3,h5{
   color:#BD1B21;
   font-family: RobotoCondensed-Bold;
 }
 
 h1>span,h4>span{
-  font-family:RobotoCondensed-Light;
+  font-family:RobotoCondensed-Regular;
 }
 
 
@@ -21,14 +28,18 @@ h1>span,h4>span{
 hr{
   background-color:#BD1B21;
   height: 4px;
-  width: 50px;
+  width: 75px;
   margin-top: 1px !important;
 }
 
 p{
-  font-size: 1.6rem;
-  font-family:Ubuntu-Regular;
+  font-size: 1.57rem;
+  font-family:Ubuntu-Light;
+  line-height: 210%;
+}
 
+p>span{
+  color:#BD1B21;
 }
 
 .flex{
@@ -75,6 +86,20 @@ ul{
   margin-top: 5%;
 }
 
+#slider-principal .info-cont{
+      position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 65px;
+    padding-right: 180px;
+}
+
+#slider-principal .info-cont h1{
+  font-size: 5rem;
+}
+
+
+
 .btn{
   padding: 6px;
   width: 74px;
@@ -83,6 +108,7 @@ ul{
   color:#BD1B21; 
   transition:background-color 0.25s;
   font-family: Montserrat-Bold;
+  background-color: #E6E7E8;
 }
 
 .btn:hover{
@@ -105,8 +131,39 @@ i{
 
 label{
   font-family: Ubuntu-Regular;
+  color:grey;
+  margin-bottom: 0px ;
 }
 
+
+
+.icon-circle{
+    box-sizing:border-box;
+  background:#666;
+    line-height:80px;
+        
+  background: #3498DB;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  -webkit-border-radius:1100%;
+  -moz-border-radius:100%;
+  -o-border-radius:100%;
+  border-radius:100%;
+  border:6px solid #fff;
+  text-align:center;
+  vertical-align:middle;
+  width:80px;
+  height:80px;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  -o-transition:.5s;
+  transition:.5s;
+}
+
+.form-control{
+    margin-bottom: 9px;
+    font-family: Ubuntu-Regular;
+    font-size: 1.2rem;
+}
 
 @media only screen and (max-width: 768px){
   .flex{
@@ -124,6 +181,10 @@ label{
   footer p{
     text-align: center !important;
   }
+
+  hr.large{
+    display:none;
+  }
 }
 
 /*------------------------------------*\
@@ -131,21 +192,60 @@ label{
 \*------------------------------------*/
 
 
-section#quienes_somos{
-  padding:3%;
+section#quienes_somos {
+    padding: 7% 3% 6% 3%;
 }
 
 a.download-button{
+  margin-top: 3%;
   background-color:#BD1B21;
   border-radius: 4px; 
   padding:10px;
   color:white;
+  font-size: 109%;
+  letter-spacing: 1px;
+  font-family: Ubuntu-Light;
+}
+
+#quienes_somos p:nth-child(1){
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#quienes_somos p:nth-child(2){
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1%;
+}
+
+
+@media only screen and (max-width: 768px){
+#quienes_somos p:nth-child(1){
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#quienes_somos p:nth-child(2){
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1%;
+}
+
 }
 
 
 /*------------------------------------*\
 	Equipo
 \*------------------------------------*/
+
+section#equipo{
+  padding-top:3%;
+  padding-bottom: 2.5%;
+}
 
 #equipo p, #equipo h1{
   color:white !important;
@@ -155,18 +255,48 @@ a.download-button{
 	padding-top:10%;
 }
 
+#equipo ul li:nth-child(2){
+  margin-top: 2%;
+}
+
+#equipo .col-lg-6:nth-child(2){
+    margin-left: -5%;
+    margin-top: 3%;
+}
+
 
 /*------------------------------------*\
 	Organizacion
 \*------------------------------------*/
 
+.gradient-right{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+81,ffffff+97&1+71,0+100 */
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 71%, rgba(255,255,255,0.66) 81%, rgba(255,255,255,0.1) 97%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 71%,rgba(255,255,255,0.66) 81%,rgba(255,255,255,0.1) 97%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(255,255,255,1) 71%,rgba(255,255,255,0.66) 81%,rgba(255,255,255,0.1) 97%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.gradient-left{
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+13,ffffff+81&0+8,0+8,1+49 */
+background: -moz-linear-gradient(left, rgba(255,255,255,0) 8%, rgba(255,255,255,0.12) 13%, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 81%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(255,255,255,0) 8%,rgba(255,255,255,0.12) 13%,rgba(255,255,255,1) 49%,rgba(255,255,255,1) 81%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(255,255,255,0) 8%,rgba(255,255,255,0.12) 13%,rgba(255,255,255,1) 49%,rgba(255,255,255,1) 81%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.no-gradient{
+  background-color: rgba(255,255,255,1);
+}
+
+
 section#organizacion {
-  padding:2% 2% 5% 2%;
+  padding:4% 2% 5% 2%;
 }
 
 #organizacion ul{
 	list-style: none;
-  margin-left: 36px;
+  margin-left: 108px;
 }
 
 #organizacion ul li h3{
@@ -175,11 +305,8 @@ section#organizacion {
 
 #organizacion ul li{
   padding: 10px;
-  text-align: center;
   border-radius: 2px;
-  background-color: rgba(255,255,255,0.5);
   margin-top: 14px;
-  cursor:pointer;
   width: 195px;
   font-size: 1.96rem;
   font-family: Ubuntu-Regular;
@@ -187,45 +314,52 @@ section#organizacion {
 }
 
 #organizacion ul li:hover{
-  background-color:rgba(189,27,33,0.9);
+  background: #911B21;
   color:white;
-  transition:background-color 0.5s;
 }
+
+
 
 
 
 #organizacion ul .big{
   padding: 28px;
   margin-bottom: 2px;
+  background: #911B21;
+  color:white;
 }
 
 
 
 #organizacion .esp-cont{
-   width: 1085px;
-   height: 200px;
-   margin-left: auto;
-   margin-right: auto;
-   display: block;
+     width: 1085px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #organizacion .center-block{
-  width: 762px;
-  height: 200px;
+      width: 1014px;
+    height: 200px;
 }
 .esp-cont{
 	width: 962px;
     height: 200px;
 }
 
-@media only screen and (max-width: 768px){
+#rel-inst{
+  width: 250px !important;
+}
+
+@media only screen and (max-width: 767px){
  .esp-cont{
   width: auto;
     height: auto;
 }
 
 #organizacion .left{
-  float:none;
+  float:left;
 }
 
 
@@ -244,9 +378,22 @@ section#organizacion {
   margin-right: auto;
   display:block;
 }
+
+#organizacion .text-right,#organizacion .text-left{
+  text-align: center;
 }
 
+#rel-inst{
+  width: unset;
+}
+}
 
+@media only screen and (min-width: 768px )and (max-width: 1000px){
+#organizacion ul {
+    list-style: none;
+    margin-left: 42px;
+}
+}
 @media only screen and (max-width: 1000px) and (orientation:landscape){
 #organizacion .center-block {
     width: auto;
@@ -257,6 +404,10 @@ section#organizacion {
     width: auto;
  
 }
+#organizacion ul {
+
+    margin-left: 37px;
+}
 }
 
 
@@ -265,17 +416,30 @@ section#organizacion {
 \*------------------------------------*/
 
 
-#resp-social{
+section#resp-social{
   padding:0 !important;
 }
 
-#resp-soc-background{
-  background-image: url("../imagenes/resp-social/background.jpg");
-  height: 799px;
+section#resp-social .row{
+  margin-top: 2%;
+
 }
 
-.slider-cont{
+#resp-soc-background{
+  background-image: url("../imagenes/BkGround/resp_soc.jpg");
+  height: 563px;
+}
+
+#resp-social .slider-cont{
+  background-color: #F1F2F2;
   border-top:8px solid #BD1B21;
+    height: 176px;
+}
+#resp-social .slider-cont h3{
+  letter-spacing: 1px;
+  font-family: Ubuntu-Bold;
+  font-size:2rem;
+
 }
 
 /*------------------------------------*\
@@ -284,6 +448,12 @@ section#organizacion {
 #porque{
   background-color: #911B21;
   padding-bottom:2%;
+  padding-top: 2.5%;
+}
+
+#porque .flex {
+    align-content: unset;
+    align-items: unset;
 }
 
 #porque p, #porque h1{
@@ -292,42 +462,76 @@ section#organizacion {
 }
 
 #porque p{
-  font-family: Ubuntu-Regular;
+  font-family: Ubuntu-Light;
+  font-size: 1.29rem;
+  line-height: 20px;
 }
 
 #porque hr {
   background-color: white;
 }
 
+#porque hr.large{
+      width: 90%;
+    height: 1px;
+    z-index: 1;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 50px!important;
+    z-index: 0;
+}
+
 #porque .img-cont{
-      background-color: white;
-    border-radius: 50%;
-    width: 123px;
-    padding: 26px;
+    box-sizing: border-box;
+    background-color: white;
+    -webkit-border-radius: 1100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    padding: 24px;
 }
 
 
 #porque ul{
 	list-style: none;
 	/*width: 778px;*/
+  z-index: 1000;
 }
 
 
 #porque ul li{
-	margin-left: 2%;
-  text-align: center;
+    /* margin-left: -91%; */
+    text-align: center;
+    z-index: 1000;
+    width: 282px;
 
 }
 
 #porque .subtitulo{
   margin-top: 20px;
   margin-bottom: 0;
+  line-height: 14px;
+  font-family: Ubuntu-Regular;
 }
 
 
 @media only screen and (max-width: 768px){
   #porque ul{
   width: auto;
+}
+
+#porque .flex {
+        align-content: flex-start;
+    align-items: center;
 }
 }
 
@@ -336,19 +540,38 @@ section#organizacion {
   Valores
 \*------------------------------------*/
 
+
+#valores p{
+  line-height: 1px;
+      line-height: 25px;
+      font-family: Ubuntu-Regular;
+}
+
 #valores  img{
-  margin-right: 25px;
+  /*margin-right: 25px;*/
 }
 
 #valores .right {
-  text-align: center !important;
+      text-align: center !important;
+    width: 188px;
+
 }
 
-#valores .row{
+#valores .row:nth-child(1),#valores .row:nth-child(3){
   background-color: white;
     height: 251px;
     padding: 5%;
 }
+
+#valores .row:nth-child(3){
+
+}
+
+#valores .row:nth-child(2){
+  padding-top:2%;
+}
+
+
 
 #valores .row:hover{
     background-color: #E6E7E8;
@@ -356,7 +579,11 @@ section#organizacion {
 }
 
 #valores h4{
-  color:;
+  font-size: 2.78rem;
+  letter-spacing: 1px;
+  width: auto;
+  float: left;
+  margin-left: 9%;
 }
 
 
@@ -391,20 +618,20 @@ section#organizacion {
   height: auto;
 }
 #valores img{
-  margin:0 !important;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#valores h4 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 }
 
 @media only screen and (max-width: 1000px) and (orientation:landscape){
-#organizacion .center-block {
-    width: auto;
-    /* height: 200px; */
-}
 
-#organizacion .esp-cont {
-    width: auto;
- 
-}
 }
 
 
@@ -412,16 +639,36 @@ section#organizacion {
   reconocimientos
 \*------------------------------------*/
 
+section#reconocimientos .row:nth-child(1){
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+section#reconocimientos .row:nth-child(2){
+  width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #rec-background{
   background-image: url("../imagenes/reconocimientos/background.jpg");
   height: 740px;
+  margin-top: -158px;
+
 }
 
 #reconocimientos ul li{
-  width: 134px;
+  width: 275px;
   text-align: center;
+  background-color: #F1F2F2;
+  border-radius:4px;
+  padding:24px;
 }
 
+
+section#reconocimientos h5{
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
 
 /*------------------------------------*\
   Nuestra tecnologia
@@ -431,24 +678,34 @@ section#organizacion {
   padding:2%;
 }
 
+#tecnologia h2{
+      font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+
+#tecnologia ul{
+  width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 #tecnologia ul li{
-  padding: 35px;
-  /*border: 1px solid grey;*/
-  width: 211px;
-  height: 148px;
-  flex: 1 1 auto;
-  /* margin-top: 1%; */
-  /* margin-left: 32px; */
-  text-align: center;
-  margin: 18px 19px 20px 22px;
-  max-width: 231px;
-  color:white;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  font-family: Ubuntu-Regular;
-  cursor:pointer;
-  transition:background-color 0.5s;
+    padding: 35px;
+    /* border: 1px solid grey; */
+    width: 200px;
+    height: 200px;
+    flex: 1 1 auto;
+    /* margin-top: 1%; */
+    /* margin-left: 32px; */
+    margin: 18px 18px 18px 18px;
+    max-width: 231px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    font-family: Ubuntu-Regular;
+    transition: background-color 0.5s;
+    max-width: 200px;
 }
 
 
@@ -468,11 +725,13 @@ section#organizacion {
   Clientes
 \*------------------------------------*/
 section#clientes{
-  padding:2% 2% 5%;
+   padding: 4% 2% 12%;
+  background-color: #F1F2F2;
 }
 
-
-
+section#clientes .row:nth-child(1){
+  padding-bottom: 3%;
+}
 
 /*------------------------------------*\
   servicios
@@ -481,6 +740,15 @@ section#clientes{
   padding:3%;
 }
 
+#lista-servicios p {
+  font-size: 1.5rem;
+    line-height: 24px;
+}
+
+#lista-servicios .container{
+  width: 937px;
+
+}
 
 #title-servicios{
   background-color: #911B21;
@@ -499,7 +767,7 @@ section#clientes{
 
 #below-servicios{
   background-color: #BD1B21;
-    width: 250px;
+    width: 302px;
     margin-left: auto;
     margin-right: auto;
     padding: 1px;
@@ -514,8 +782,11 @@ section#clientes{
 }
 
 #below-servicios h3{
-  color:white !important;
-  font-family: Ubuntu-Regular;
+      color: white !important;
+    font-family: Ubuntu-Light;
+    font-size: 1.60rem;
+    margin-top: 9px;
+    line-height: 13px;
 }
 
 
@@ -525,6 +796,18 @@ section#clientes{
     margin-top: -10px;
   
 }
+
+#lista-servicios .container{
+  width: auto
+
+}
+
+#lista-servicios h4 {
+    text-align: center;
+}
+
+
+
 }
 
 
@@ -534,8 +817,12 @@ section#clientes{
   contacto
 \*------------------------------------*/
 
-#contacto i{
-  font-size: 17pt;
+#contacto-title-map{
+  padding-top:5%;
+}
+
+#contacto-form i{
+  color:#BD1B21;
 }
 
 #contacto-form .left{
@@ -569,8 +856,17 @@ textarea{
 
 #contacto-form ul li h4{
   font-weight: bolder;
+  letter-spacing: 1px;
 }
 
+#contacto-form  p{
+  font-family: Ubuntu-Regular;
+  line-height: initial;
+}
+
+#contacto-form h4>span{
+  font-family:RobotoCondensed-Light;
+}
 
 @media only screen and (max-width: 768px){
 
@@ -614,9 +910,13 @@ textarea{
     background: white;
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
+
+.owl-carousel .margin {
+    margin-top: 78px !important;
+}
 
 /* -- nav -- */
 
@@ -665,6 +965,19 @@ button:focus{
   outline:none;
 }
 
+
+@media screen and (max-width: 768px)  {
+  .owl-carousel .margin {
+    margin-top: auto !important;
+}
+}
+
+
+@media screen and (max-width: 1000px) and (orientation:landscape) {
+  .owl-carousel .margin {
+    margin-top: 20px !important;
+}
+}
 
 /*------------------------------------*\
   Back to top

@@ -7,24 +7,24 @@
 	<div class="row">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 			<div class="container">
-				<h1><span>¿QUIÈNES</span> SOMOS?</h1>
+				<h1><span>¿QUIÉNES</span> SOMOS?</h1>
 				<hr>
 			</div>
 		</div>
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 			<p>
-				Estudio Palmero de Belizàn & Asociados inicia su actividad profesional en el año 1996 realizando gestiòn de <br>
-				mora y recupero de activos en el mercado comercial y bancario. Hoy, con màs de 20 años de trayectoria, <br>
-				trabajamos y brindamos la mejor soluciòn para cada cliente.
+				Estudio Palmero de Belizán & Asociados inicia su actividad profesional en el año 1996 realizando gestión de 
+				mora y recupero de activos en el mercado comercial y bancario. Hoy, con más de 20 años de trayectoria,
+				trabajamos y brindamos la mejor solución para cada cliente.
 			</p>
 			<p>
-				Actualmente, nos especializamos en la <b>gestiòn de cobranza</b> de <br> saldos de deuda elevada para 
-				<b>Bancos, Empresas y PyMES</b>
+				<span>Actualmente, nos especializamos en la <b>gestión de cobranza</b> de  saldos de deuda elevada para 
+				<b>Bancos, Empresas y PyMES</b></span>
 			</p>
 			
 			<a class="download-button" href="">
 				<img src="imagenes/icon/download-icon.png" alt="">
-				Descargà nuestro BROCHURE
+				Descargá nuestro BROCHURE
 			</a>
 
 		</div>
@@ -66,18 +66,18 @@
 		<div class="esp-cont" style="   ">
 			<div class="center-block" style="">
 				<ul class="left">
-					<li>Administración</li>
-					<li>Operaciones</li>
-					<li>Capacitación</li>
+					<li class="text-right gradient-left">Administración</li>
+					<li class="text-right gradient-left">Operaciones</li>
+					<li class="text-right gradient-left">Capacitación</li>
 				</ul>
 				<ul class="left">
-					<li class="big">Soluciones <br> exitosas</li>
-					<li>Recursos Humanos</li>
+					<li class="text-center big no-gradient">Soluciones <br> exitosas</li>
+					<li class="text-center no-gradient">Recursos Humanos</li>
 				</ul>
 				<ul class="left">
-					<li style="width:250px">Relaciones Institucionales</li>
-					<li>Soporte</li>
-					<li>Calidad</li>
+					<li class="text-left gradient-right" id="rel-inst">Relaciones Institucionales</li>
+					<li class="text-left gradient-right">Soporte</li>
+					<li class="text-left gradient-right">Calidad</li>
 				</ul>
 			</div>
 		</div>
@@ -92,46 +92,49 @@
 		</div>
 	</div>
 	<div class="row">
-		<ul class="flex center-block">
-			<li class="text-center">
-				<div class="img-cont center-block">
-					<img src="imagenes/quienes_somos/3.png" alt="">
-				</div>
-				<p class="subtitulo">SERVICIO DE COBRANZA</p>
-				<p>Agil, eficaz y transparente.</p>
-			</li>
-			<li class="text-center">
-				<div class="img-cont center-block">
-					<img src="imagenes/quienes_somos/4.png" alt="">
-				</div>
-				<p class="subtitulo">ESTRATEGIAS</p>
-				<p>Claras y definidas.</p>
-			</li>
-			<li class="text-center">
-				<div class="img-cont center-block">
-					<img src="imagenes/quienes_somos/5.png" alt="">
-				</div>
-				<p class="subtitulo">CANALES</p>
-				<p>De última generación.</p>
-			</li>
-			<li class="text-center">
-				<div class="img-cont center-block">
-					<img src="imagenes/quienes_somos/6.png" alt="">
-				</div>
-				<p class="subtitulo">METODOLOGÍAS OPERATIVAS</p>
-				<p>Adaptadas a la necesidasd del cliente.</p>
-			</li>
-		</ul>
+		<div class="container">
+			<hr class="large">
+			<ul class="flex center-block">
+				<li class="text-center">
+					<div class="img-cont center-block">
+						<img src="imagenes/quienes_somos/3.png" alt="">
+					</div>
+					<p class="subtitulo">SERVICIO DE COBRANZA</p>
+					<p>Agil, eficaz y transparente.</p>
+				</li>
+				<li class="text-center">
+					<div class="img-cont center-block">
+						<img src="imagenes/quienes_somos/4.png" alt="">
+					</div>
+					<p class="subtitulo">ESTRATEGIAS</p>
+					<p>Claras y definidas.</p>
+				</li>
+				<li class="text-center">
+					<div class="img-cont center-block">
+						<img src="imagenes/quienes_somos/5.png" alt="">
+					</div>
+					<p class="subtitulo">CANALES</p>
+					<p>De última generación.</p>
+				</li>
+				<li class="text-center">
+					<div class="img-cont center-block">
+						<img src="imagenes/quienes_somos/6.png" alt="">
+					</div>
+					<p class="subtitulo">METODOLOGÍAS OPERATIVAS</p>
+					<p>Adaptadas a la necesidades <br>  del cliente.</p>
+				</li>
+			</ul>
+		</div>
 	</div>
 
 </section>
 <section id="valores" style="padding:0;">
 	<div class="row">
 		<div class="container">
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
 				<div class="right">
 					<img src="imagenes/quienes_somos/7.png" id="img-mision" class="left" alt="">
-					<h4 class="left">MISIÓN</h4>
+					<h4 class="">MISIÓN</h4>
 				</div>
 			</div>
 			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -145,29 +148,29 @@
 	</div>
 	<div class="row">
 		<div class="container">
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
 				<div class="right">
-					<img src="imagenes/quienes_somos/8.png" id="img-valores" class="left" alt="" style="margin-right: 15px;">
-					<h4 class="left">VALORES</h4>
+					<img src="imagenes/quienes_somos/8.png" id="img-valores" class="left" alt="" style="">
+					<h4 class="">VALORES</h4>
 				</div>
 			</div>
 			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 				<ul>
-					<li><p>Superación</p></li>
-					<li><p>Innovación</p></li>
-					<li><p>Transparencia</p></li>
-					<li><p>Talento</p></li>
-					<li><p>Resultados</p></li>
+					<li><p>- Superación</p></li>
+					<li><p>- Innovación</p></li>
+					<li><p>- Transparencia</p></li>
+					<li><p>- Talento</p></li>
+					<li><p>- Resultados</p></li>
 				</ul>
 			</div>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row"  class="background" style="background-image:url('imagenes/BkGround/porque elegirnos_vision.jpg')">
 		<div class="container">
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
 				<div class="right">
-					<img src="imagenes/quienes_somos/9.png" id="img-vision" class="left" alt="" style="margin-right: 37px;">
-					<h4 class="left">VISIÓN</h4>
+					<img src="imagenes/quienes_somos/9.png" id="img-vision" class="left" alt="" style="">
+					<h4 class="">VISIÓN</h4>
 				</div>
 			</div>
 			<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
@@ -199,8 +202,8 @@
 		</div>
 	</div>
 
-<section id="lista-servicios">
-	<div class="row">
+<section id="lista-servicios" class="background" style="background-image:url(imagenes/BkGround/nuestros_servicios.jpg)">
+	<div class="row" >
 		<div class="container">
 			<div class="col-lg-6 col-md-6 col-sm-6">
 				<h4>1 ENRIQUECIMIENTO DE DATOS</h4>
@@ -254,13 +257,14 @@
 			<h2>Innovación constante</h2>
 		</div>
 		<ul class="flex">
-			<li><span class="one-line">ESTRUCTURA</span></li>
-			<li>DESARROLLO DE CRM A MEDIDA PARA CADA CLIENTE BAJO LA PLATAFORMA NEOTEL.</li>
-			<li><span class="one-line">TECNOLOGÍA .NET</span></li>
-			<li><span class="one-line">SOPORTE TÉCNICO</span></li>
-			<li>SISTEMA DE REPORTING BASADO EN SQL REPORTING SERVICES</li>
-			<li>OBTENCIÓN, TRATAMIENTO Y COMPLEMETANCIÓN DE DATOS.</li>
-			<li>INMEDIATA DISPONIBILIDAD DE CARTERA EN NUESTROS SISTEMAS DE GESTION</li>
+			<li class="text-center"><span class="one-line">ESTRUCTURA</span></li>
+			<li class="text-left">DESARROLLO DE CRM A MEDIDA PARA CADA CLIENTE BAJO LA PLATAFORMA NEOTEL.</li>
+			<li class="text-center"><span class="one-line">TECNOLOGÍA .NET</span></li>
+			<li class="text-center"><span class="one-line">SOPORTE TÉCNICO</span></li>
+			<li class="text-left">SISTEMA DE REPORTING BASADO EN SQL REPORTING SERVICES</li>
+			<li class="text-left">OBTENCIÓN, TRATAMIENTO Y COMPLEMETANCIÓN DE DATOS.</li>
+			<li class="text-left">INMEDIATA DISPONIBILIDAD DE CARTERA EN NUESTROS SISTEMAS DE GESTION</li>
+
 		</ul>
 	</div>
 </section>
@@ -308,18 +312,22 @@
 		<ul class="flex text-center">
 			<li>
 				<img src="imagenes/reconocimientos/1.png" alt="">
+				<h5>BANCO SANTANDER RIO</h5>
 				<a href="" class="btn">VER+</a>
 			</li>
 			<li>
 				<img src="imagenes/reconocimientos/2.png" alt="">
+				<h5>TARJETA SHOPPING</h5>
 				<a href="" class="btn">VER+</a>
 			</li>
 			<li>
 				<img src="imagenes/reconocimientos/3.png" alt="">
+				<h5>BANCO HIPOTECARIO </h5>
 				<a href="" class="btn">VER+</a>
 			</li>
 			<li>
 				<img src="imagenes/reconocimientos/4.png" alt="">
+				<h5>BANCO GALICIA</h5>
 				<a href="" class="btn">VER+</a>
 			</li>
 		</ul>
@@ -335,8 +343,16 @@
 	</div>
 	<div id="resp-soc-background" class="background"></div>
 	<div class="slider-cont text-center">
-		<div class="owl-carousel owl-theme">
-			<div>
+		<div class="owl-three owl-carousel owl-theme">
+			<div data-dot="<button id='' class='owl-dot margin' role='button'><span></span></button>">
+				<h3>1 FUNDACIÓN NORDELTA</h3>
+				<p>Capacitación y organización junto a la Fundación Nordelta, para mejorar cada día condiciones sociales de los sectores más vulnerados</p>
+			</div>
+			<div data-dot="<button id='' class='owl-dot margin' role='button'><span></span></button>">
+				<h3>1 FUNDACIÓN NORDELTA</h3>
+				<p>Capacitación y organización junto a la Fundación Nordelta, para mejorar cada día condiciones sociales de los sectores más vulnerados</p>
+			</div>
+			<div data-dot="<button id='' class='owl-dot margin' role='button'><span></span></button>">
 				<h3>1 FUNDACIÓN NORDELTA</h3>
 				<p>Capacitación y organización junto a la Fundación Nordelta, para mejorar cada día condiciones sociales de los sectores más vulnerados</p>
 			</div>
@@ -358,13 +374,13 @@
 		<div class="container" style="padding:14px">
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<img src="imagenes/logo-header-contact.png" alt="Estudio Palmero de Belizan" >
-					<h3>HORARIO DE ATENCION</h3>
+					<h3>HORARIO DE ATENCIÓN</h3>
 					<p>Lunes a viernes de 9 a 19hs</p>
-					<p>Sabados de 8 a 12 hs</p>
+					<p>Sábados de 8 a 12 hs</p>
 					<h3>SEGUINOS EN</h3>
-					<i class="fab fa-facebook left"></i><p class="left">/EPByasoc</p>
+					<i class="fa fa-facebook left"></i><p class="left">/EPByasoc</p>
 					<br><br>
-					<i class="fab fa-instagram left"></i><p class="left">/EPByasoc</p>
+					<i class="fab fa-linkedin-in left"></i><p class="left">/EPByasoc</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<h3>CONSULTAS</h3>
@@ -386,7 +402,7 @@
 				<ul>
 					<li><h4>Contacto <span>Comercial</span> <span class="right">></span></h4></li>
 					<li><h4>Trabaja <span>con nosotros</span> <span class="right">></span></h4></li>
-					<li><h4>Gestion <span>de cobranzas</span> <span class="right">></span> </h4></li>
+					<li><h4>Gestión <span>de cobranzas</span> <span class="right">></span> </h4></li>
 				</ul>
 			</div>
 		</div>

@@ -1,7 +1,7 @@
 function initMap() {
     var mapOptions = {
         center: new google.maps.LatLng(-34.599797, -58.372729),
-        zoom: 10,
+        zoom: 15,
         mapTypeId: google.maps.MapTypeId.HYBRID,
         mapTypeId: 'roadmap'
     }
@@ -13,6 +13,7 @@ var map = new google.maps.Map(document.getElementById("map"), mapOptions);
  bounds.extend(position);
  marker = new google.maps.Marker({
             position: position,
+            icon:"imagenes/logo-maps3.png",
             map: map,
             title: "Estudio Palmero Belizan"
         });
@@ -26,5 +27,5 @@ var map = new google.maps.Map(document.getElementById("map"), mapOptions);
         })(marker, i));
 
         // Automatically center the map fitting all markers on the screen
-        map.fitBounds(bounds);
+      //  map.fitBounds(bounds);
 }
