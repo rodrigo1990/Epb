@@ -213,7 +213,7 @@
 				</p>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6">
-				<h4>2 ETAPA DE NEGOCIACIÓN</h4>
+				<h4>4 ETAPA DE NEGOCIACIÓN</h4>
 				<p>Los gestores que forman parte del equipo de EPB&SA han pasado por un proceso de selección adaptado a las necesidades del puesto 
 					y de la tarea. Cada uno de ellos es capacitado continuamente para lograr la conciliación y el cobro efectivo de la deuda de acuerdo a 
 					las peculiaridades de cada cliente particular.
@@ -224,13 +224,13 @@
 	<div class="row">
 		<div class="container">
 			<div class="col-lg-6 col-md-6 col-sm-6">
-				<h4>3 BUSINESS INTELLIGENCE</h4>
+				<h4>2 BUSINESS INTELLIGENCE</h4>
 				<p>Se analiza cada cuenta que integra la cartera para dar con un  score de acuerdo al perfil de cada deudor, y establecer 
 					estrategias de cobranza eficaces en base al comportamiento y  pagos de referencia.
 				</p>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6">
-				<h4>4 CALIDAD DEL SERVICIO</h4>
+				<h4>5 CALIDAD DEL SERVICIO</h4>
 				<p>Todas las gestiones son monitoreadas para asegurar los  métodos y formas mas eficaces y apropiadas de gestión.</p>
 			</div>
 		</div>
@@ -238,7 +238,7 @@
 	<div class="row">
 		<div class="container">
 			<div class="col-lg-6 col-md-6 col-sm-6">
-				<h4>5 IVR, CAMAPAÑAS Y MAILING</h4>
+				<h4>3 IVR, CAMAPAÑAS Y MAILING</h4>
 				<p>Se activan llamadores automáticos a los teléfonos fijos, una  campaña de mensajes de texto a los teléfonos celulares y un 
 					mailing automático a las casillas de correo de cada una de las  cuentas.</p>
 			</div>
@@ -284,16 +284,21 @@
 			</div>
 			<div>
 				<ul class="flex">
-					<li><img src="imagenes/clientes/1.png" alt=""></li>
-					<li><img src="imagenes/clientes/2.png" alt=""></li>
-					<li><img src="imagenes/clientes/3.png" alt=""></li>
+					<li><img src="imagenes/clientes/4.png" alt=""></li>
+					<li><img src="imagenes/clientes/5.png" alt=""></li>
+					<li><img src="imagenes/clientes/6.png" alt=""></li>
 				</ul>
 			</div>
 			<div>
 				<ul class="flex">
-					<li><img src="imagenes/clientes/1.png" alt=""></li>
-					<li><img src="imagenes/clientes/2.png" alt=""></li>
-					<li><img src="imagenes/clientes/3.png" alt=""></li>
+					<li><img src="imagenes/clientes/7.png" alt=""></li>
+					<li><img src="imagenes/clientes/8.png" alt=""></li>
+					<li><img src="imagenes/clientes/9.png" alt=""></li>
+				</ul>
+			</div>
+			<div>
+				<ul class="flex">
+					<li><img src="imagenes/clientes/9.png" alt=""></li>
 				</ul>
 			</div>
 			
@@ -372,7 +377,7 @@
 		<div id="map" style="height: 389px;width:105%;"></div>
 	</div>
 </section>
-<section id="contacto-form" style="background-image:url(imagenes/BkGround/contacto.jpg); padding-top:0!important;" class="background" style="">
+<section id="contacto-form" style="background-image:url(imagenes/BkGround/contacto.jpg);" class="background" style="">
 	<div class="row background"  >
 		<div class="container" style="padding:14px">
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">

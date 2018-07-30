@@ -886,6 +886,10 @@ section#clientes .row:nth-child(1){
   contacto
 \*------------------------------------*/
 
+#contacto-form{
+  padding:2%;
+}
+
 #contacto-title-map{
   padding-top:5%;
 }
