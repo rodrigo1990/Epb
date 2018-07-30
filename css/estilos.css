@@ -1086,3 +1086,45 @@ button:focus{
 #back-to-top:hover {
     opacity: 0.8;
 }
+
+
+
+/*------------------------------------*\
+  Preloader
+\*------------------------------------*/
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2b2a2a;
+    z-index: 10043;
+    height: 100vh;
+    opacity: 0.96;
+}
+
+#status {
+ position: relative;
+    /* left: 50%; */
+    /* top: 50%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16%;
+}
+
+.spinner-sm {
+    border: 5px solid #bbbbbb;
+    border-top: 5px solid #BD1B21;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
