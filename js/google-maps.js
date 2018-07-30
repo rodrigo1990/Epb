@@ -13,7 +13,6 @@ var map = new google.maps.Map(document.getElementById("map"), mapOptions);
  bounds.extend(position);
  marker = new google.maps.Marker({
             position: position,
-            icon:"imagenes/logo-maps3.png",
             map: map,
             title: "Estudio Palmero Belizan"
         });
