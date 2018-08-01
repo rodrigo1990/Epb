@@ -22,7 +22,7 @@
 				<b>Bancos, Empresas y PyMES</b></span>
 			</p>
 			
-			<a class="download-button" href="">
+			<a class="download-button" href="files/brouchure.zip">
 				<img src="imagenes/icon/download-icon.png" alt="">
 				Descargá nuestro BROCHURE
 			</a>
@@ -173,7 +173,7 @@
 					<h4 class="">VISIÓN</h4>
 				</div>
 			</div>
-			<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 				<p>Convertirnos en la empresa líder de recupero y gestión de mora en <br> Argentina.</p>
 			</div>
 		</div>
@@ -212,9 +212,9 @@
 				 personal específicamente para realizar esta tarea y que los gestores se concentren en la negociación efectiva.
 				</p>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
 				<h4>4 ETAPA DE NEGOCIACIÓN</h4>
-				<p>Los gestores que forman parte del equipo de EPB&SA han pasado por un proceso de selección adaptado a las necesidades del puesto 
+				<p>Los gestores que forman parte del equipo de EPB&A han pasado por un proceso de selección adaptado a las necesidades del puesto 
 					y de la tarea. Cada uno de ellos es capacitado continuamente para lograr la conciliación y el cobro efectivo de la deuda de acuerdo a 
 					las peculiaridades de cada cliente particular.
 				</p>
@@ -229,7 +229,7 @@
 					estrategias de cobranza eficaces en base al comportamiento y  pagos de referencia.
 				</p>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
 				<h4>5 CALIDAD DEL SERVICIO</h4>
 				<p>Todas las gestiones son monitoreadas para asegurar los  métodos y formas mas eficaces y apropiadas de gestión.</p>
 			</div>
@@ -238,10 +238,24 @@
 	<div class="row">
 		<div class="container">
 			<div class="col-lg-6 col-md-6 col-sm-6">
-				<h4>3 IVR, CAMAPAÑAS Y MAILING</h4>
+				<h4>3 IVR, CAMPAÑAS Y MAILING</h4>
 				<p>Se activan llamadores automáticos a los teléfonos fijos, una  campaña de mensajes de texto a los teléfonos celulares y un 
 					mailing automático a las casillas de correo de cada una de las  cuentas.</p>
 			</div>
+
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12">
+				<h4>4 ETAPA DE NEGOCIACIÓN</h4>
+				<p>Los gestores que forman parte del equipo de EPB&A han pasado por un proceso de selección adaptado a las necesidades del puesto 
+					y de la tarea. Cada uno de ellos es capacitado continuamente para lograr la conciliación y el cobro efectivo de la deuda de acuerdo a 
+					las peculiaridades de cada cliente particular.
+				</p>
+			</div>
+
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+				<h4>5 CALIDAD DEL SERVICIO</h4>
+				<p>Todas las gestiones son monitoreadas para asegurar los  métodos y formas mas eficaces y apropiadas de gestión.</p>
+			</div>
+
 			<div class="col-lg-6 col-md-6 col-sm-6">
 				
 			</div>
@@ -373,9 +387,7 @@
 		<h1>CONTACTANOS</h1>
 		<hr>
 	</div>
-	<div class="container-fluid">
-		<div id="map" style="height: 389px;width:105%;"></div>
-	</div>
+		<div id="map" style="height: 389px;"></div>
 </section>
 <section id="contacto-form" style="background-image:url(imagenes/BkGround/contacto.jpg);" class="background" style="">
 	<div class="row background"  >
@@ -393,9 +405,9 @@
 					<p>Lunes a viernes de 9 a 19hs</p>
 					<p>Sábados de 8 a 12 hs</p>
 					<h3>SEGUINOS EN</h3>
-					<i class="fa fa-facebook left"></i><p class="left">/EPByasoc</p>
-					<br><br>
-					<i class="fab fa-linkedin-in left"></i><p class="left">/EPByasoc</p>
+					<a href="https://www.facebook.com/pages/biz/company/Estudio-Palmero-de-Belizan-y-Asociados-SA-1370207849695490/" target="_blank" class="left"><i class="fa fa-facebook"></i></a>
+
+					<a href="https://ar.linkedin.com/company/estudio-palmero-de-beliz%C3%A1n-y-asoc-" target="_blank" class="left" style="margin-left:4%"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<ul>

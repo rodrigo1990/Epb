@@ -2,7 +2,7 @@
 	General
 \*------------------------------------*/
 body{
-  overflow-x:hidden;
+  overflow-x:hidden !important;
 }
 
 
@@ -739,6 +739,16 @@ section#reconocimientos h5{
   letter-spacing: 1px;
 }
 
+@media only screen and (max-width: 1024px){
+
+#reconocimientos ul li{
+  margin-top: 10px;
+}
+
+
+}
+
+
 /*------------------------------------*\
   Nuestra tecnologia
 \*------------------------------------*/
@@ -778,11 +788,11 @@ section#reconocimientos h5{
 }
 
 
-#tecnologia ul li:hover{
+/*#tecnologia ul li:hover{
   background-color: rgba(189,27,33,0.85);
   transition:background-color 0.5s;
 
-}
+}*/
 
 
 #tecnologia ul li .one-line{
@@ -879,7 +889,14 @@ section#clientes .row:nth-child(1){
 
 }
 
+@media only screen and (min-width: 768px) and (min-width: 768px){
 
+  #lista-servicios .container{
+    width: auto
+
+  }
+
+}
 
 
 /*------------------------------------*\
@@ -896,15 +913,25 @@ section#clientes .row:nth-child(1){
 
 #contacto-form i{
   color:#BD1B21;
+  transition:color 0.5s;
 }
 
-#contacto-form .left{
+#contacto-form i:hover {
+    
+    color:black;
+    transition:color 0.5s;
+    
+}
+
+
+
+/*#contacto-form .left{
   margin-left: 5%;
-}
+}*/
 
-#contacto-form i.left{
+/*#contacto-form i.left{
   margin-left: 0;
-}
+}*/
 
 #contacto-form img{
   margin-top: 5%;
@@ -957,8 +984,9 @@ textarea{
 }
 
 #contacto-form .left {
-    margin-left: auto;
-    float:none;
+      text-align: center;
+    width: 100%;
+    margin:auto !important;
 }
 
 #contacto-form img{

@@ -31,5 +31,20 @@ footer p{
   footer p.left, footer a.left{
 	float:none;
   }
+
+
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  footer .flex{
+    flex-direction: column;
+  }
+  
+  footer p.left, footer a.left{
+  float:none;
+  }
+
+}
+
+
 
