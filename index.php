@@ -174,7 +174,11 @@
 				</div>
 			</div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+=======
+			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+>>>>>>> 534eedfd1e3dea9c1af15832dd37fcdbc1cfa730
 =======
 			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 >>>>>>> 534eedfd1e3dea9c1af15832dd37fcdbc1cfa730
@@ -217,7 +221,11 @@
 				</p>
 			</div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<div class="col-lg-6 col-md-6 col-sm-6">
+=======
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+>>>>>>> 534eedfd1e3dea9c1af15832dd37fcdbc1cfa730
 =======
 			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
 >>>>>>> 534eedfd1e3dea9c1af15832dd37fcdbc1cfa730
@@ -238,7 +246,11 @@
 				</p>
 			</div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<div class="col-lg-6 col-md-6 col-sm-6">
+=======
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+>>>>>>> 534eedfd1e3dea9c1af15832dd37fcdbc1cfa730
 =======
 			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
 >>>>>>> 534eedfd1e3dea9c1af15832dd37fcdbc1cfa730
@@ -253,6 +265,7 @@
 				<h4>3 IVR, CAMPAÑAS Y MAILING</h4>
 				<p>Se activan llamadores automáticos a los teléfonos fijos, una  campaña de mensajes de texto a los teléfonos celulares y un 
 					mailing automático a las casillas de correo de cada una de las  cuentas.</p>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 			</div>
@@ -271,6 +284,23 @@
 >>>>>>> 534eedfd1e3dea9c1af15832dd37fcdbc1cfa730
 			</div>
 
+=======
+			</div>
+
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12">
+				<h4>4 ETAPA DE NEGOCIACIÓN</h4>
+				<p>Los gestores que forman parte del equipo de EPB&A han pasado por un proceso de selección adaptado a las necesidades del puesto 
+					y de la tarea. Cada uno de ellos es capacitado continuamente para lograr la conciliación y el cobro efectivo de la deuda de acuerdo a 
+					las peculiaridades de cada cliente particular.
+				</p>
+			</div>
+
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+				<h4>5 CALIDAD DEL SERVICIO</h4>
+				<p>Todas las gestiones son monitoreadas para asegurar los  métodos y formas mas eficaces y apropiadas de gestión.</p>
+			</div>
+
+>>>>>>> 534eedfd1e3dea9c1af15832dd37fcdbc1cfa730
 			<div class="col-lg-6 col-md-6 col-sm-6">
 				
 			</div>
