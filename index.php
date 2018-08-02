@@ -22,7 +22,7 @@
 				<b>Bancos, Empresas y PyMES</b></span>
 			</p>
 			
-			<a class="download-button" href="">
+			<a class="download-button" href="files/brouchure.zip">
 				<img src="imagenes/icon/download-icon.png" alt="">
 				Descargá nuestro BROCHURE
 			</a>
@@ -46,7 +46,7 @@
 					<p>Conformamos un equipo interdisciplinario de profesionales <br>
 						(sociólogos, ingenieros, abogados, administradores de empresas y <br>
 						 relacionistas públicos, entre otros) con notable experiencia, tanto en <br>
-						 las áreas de especializacion de empresas como de individuos. <br>
+						 las áreas de especialización de Empresas como de Individuos. <br>
 						 Analizamos, evaluamos y detectamos la problemática de nuestros <br>
 						  clientes, ofreciéndoles las soluciones adecuadas para sus necesidades <br> reales.</p>
 				</div>
@@ -67,17 +67,17 @@
 			<div class="center-block" style="">
 				<ul class="left">
 					<li class="text-right gradient-left">Administración</li>
+					<li class="text-right gradient-left"  id="rel-inst">Relaciones Institucionales</li>
 					<li class="text-right gradient-left">Operaciones</li>
-					<li class="text-right gradient-left">Capacitación</li>
 				</ul>
 				<ul class="left">
 					<li class="text-center big no-gradient">Soluciones <br> exitosas</li>
-					<li class="text-center no-gradient">Recursos Humanos</li>
+					<li class="text-center no-gradient">Sistemas y tecnología</li>
 				</ul>
 				<ul class="left">
-					<li class="text-left gradient-right" id="rel-inst">Relaciones Institucionales</li>
-					<li class="text-left gradient-right">Soporte</li>
 					<li class="text-left gradient-right">Calidad</li>
+					<li class="text-left gradient-right">Recursos humanos</li>
+					<li class="text-left gradient-right">Coaching</li>
 				</ul>
 			</div>
 		</div>
@@ -100,7 +100,7 @@
 						<img src="imagenes/quienes_somos/3.png" alt="">
 					</div>
 					<p class="subtitulo">SERVICIO DE COBRANZA</p>
-					<p>Agil, eficaz y transparente.</p>
+					<p>Ágil, eficaz y transparente.</p>
 				</li>
 				<li class="text-center">
 					<div class="img-cont center-block">
@@ -173,8 +173,12 @@
 					<h4 class="">VISIÓN</h4>
 				</div>
 			</div>
+<<<<<<< HEAD
 			<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-				<p>Convertimos en la empresa lider de recupero y gestion de mora en <br> Argentina.</p>
+=======
+			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+>>>>>>> 534eedfd1e3dea9c1af15832dd37fcdbc1cfa730
+				<p>Convertirnos en la empresa líder de recupero y gestión de mora en <br> Argentina.</p>
 			</div>
 		</div>
 	</div>
@@ -190,8 +194,8 @@
 	</div>
 	<div class="row text-center">
 		<div class="container">
-			<p>Nuestro servicio de gestion de cobranzas se especializa en los tramos de mora temprana (0 a 90 días), mora <br>
-			tardia (90 a 360 días) y mora avanzada (mayor a un año) de recupero de :</p>
+			<p>Nuestro servicio de gestión de cobranzas se especializa en los tramos de mora temprana (0 a 90 días), mora <br>
+			tardía (90 a 360 días) y mora avanzada (mayor a un año) de recupero de :</p>
 		</div>
 	</div>
 </section>
@@ -207,14 +211,18 @@
 		<div class="container">
 			<div class="col-lg-6 col-md-6 col-sm-6">
 				<h4>1 ENRIQUECIMIENTO DE DATOS</h4>
-				<p>Prevía a dar de alta la cartera derivada por el cliente y comenzar 
-				 las gestiones pertinentes, se realiza un enriquecimineto de datos para facilitar el contacto efectivo del deudor. Asignamos 
-				 personal especificamente para realizar esta tarea y que los gestores se concentren en la negociación efectiva.
+				<p>Previa a dar de alta la cartera derivada por el cliente y comenzar 
+				 las gestiones pertinentes, se realiza un enriquecimiento de datos para facilitar el contacto efectivo del deudor. Asignamos 
+				 personal específicamente para realizar esta tarea y que los gestores se concentren en la negociación efectiva.
 				</p>
 			</div>
+<<<<<<< HEAD
 			<div class="col-lg-6 col-md-6 col-sm-6">
-				<h4>2 ETAPA DE NEGOCIACIÓN</h4>
-				<p>Los gestores que forman parte del equipo de EP&SA han pasado por un proceso de selección adaptado a las necesidades del puesto 
+=======
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+>>>>>>> 534eedfd1e3dea9c1af15832dd37fcdbc1cfa730
+				<h4>4 ETAPA DE NEGOCIACIÓN</h4>
+				<p>Los gestores que forman parte del equipo de EPB&A han pasado por un proceso de selección adaptado a las necesidades del puesto 
 					y de la tarea. Cada uno de ellos es capacitado continuamente para lograr la conciliación y el cobro efectivo de la deuda de acuerdo a 
 					las peculiaridades de cada cliente particular.
 				</p>
@@ -224,24 +232,45 @@
 	<div class="row">
 		<div class="container">
 			<div class="col-lg-6 col-md-6 col-sm-6">
-				<h4>3 BUSINESS INTELLIGENCE</h4>
+				<h4>2 BUSINESS INTELLIGENCE</h4>
 				<p>Se analiza cada cuenta que integra la cartera para dar con un  score de acuerdo al perfil de cada deudor, y establecer 
 					estrategias de cobranza eficaces en base al comportamiento y  pagos de referencia.
 				</p>
 			</div>
+<<<<<<< HEAD
 			<div class="col-lg-6 col-md-6 col-sm-6">
-				<h4>4 CALIDAD DEL SERVICIO</h4>
-				<p>Todas las gestiones son monitoreadas para asegurar los  metodos y formas mas eficaces y apropiadas de gestion.</p>
+=======
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+>>>>>>> 534eedfd1e3dea9c1af15832dd37fcdbc1cfa730
+				<h4>5 CALIDAD DEL SERVICIO</h4>
+				<p>Todas las gestiones son monitoreadas para asegurar los  métodos y formas mas eficaces y apropiadas de gestión.</p>
 			</div>
 		</div>
 	</div>
 	<div class="row">
 		<div class="container">
 			<div class="col-lg-6 col-md-6 col-sm-6">
-				<h4>5 IVR, CAMAPAÑAS Y MAILING</h4>
-				<p>Se activan llamadores automáticos a los telefonos fijos, una  campaña de mensajes de texto a los telélefonos celulares y un 
-					mailing automatico a las casillas de correo de cada una de las  cuentas.</p>
+				<h4>3 IVR, CAMPAÑAS Y MAILING</h4>
+				<p>Se activan llamadores automáticos a los teléfonos fijos, una  campaña de mensajes de texto a los teléfonos celulares y un 
+					mailing automático a las casillas de correo de cada una de las  cuentas.</p>
+<<<<<<< HEAD
+=======
 			</div>
+
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12">
+				<h4>4 ETAPA DE NEGOCIACIÓN</h4>
+				<p>Los gestores que forman parte del equipo de EPB&A han pasado por un proceso de selección adaptado a las necesidades del puesto 
+					y de la tarea. Cada uno de ellos es capacitado continuamente para lograr la conciliación y el cobro efectivo de la deuda de acuerdo a 
+					las peculiaridades de cada cliente particular.
+				</p>
+			</div>
+
+			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+				<h4>5 CALIDAD DEL SERVICIO</h4>
+				<p>Todas las gestiones son monitoreadas para asegurar los  métodos y formas mas eficaces y apropiadas de gestión.</p>
+>>>>>>> 534eedfd1e3dea9c1af15832dd37fcdbc1cfa730
+			</div>
+
 			<div class="col-lg-6 col-md-6 col-sm-6">
 				
 			</div>
@@ -262,7 +291,7 @@
 			<li class="text-center"><span class="one-line">TECNOLOGÍA .NET</span></li>
 			<li class="text-center"><span class="one-line">SOPORTE TÉCNICO</span></li>
 			<li class="text-left">SISTEMA DE REPORTING BASADO EN SQL REPORTING SERVICES</li>
-			<li class="text-left">OBTENCIÓN, TRATAMIENTO Y COMPLEMETANCIÓN DE DATOS.</li>
+			<li class="text-left">OBTENCIÓN, TRATAMIENTO Y COMPLEMENTACIÓN DE DATOS.</li>
 			<li class="text-left">INMEDIATA DISPONIBILIDAD DE CARTERA EN NUESTROS SISTEMAS DE GESTION</li>
 
 		</ul>
@@ -284,16 +313,21 @@
 			</div>
 			<div>
 				<ul class="flex">
-					<li><img src="imagenes/clientes/1.png" alt=""></li>
-					<li><img src="imagenes/clientes/2.png" alt=""></li>
-					<li><img src="imagenes/clientes/3.png" alt=""></li>
+					<li><img src="imagenes/clientes/4.png" alt=""></li>
+					<li><img src="imagenes/clientes/5.png" alt=""></li>
+					<li><img src="imagenes/clientes/6.png" alt=""></li>
 				</ul>
 			</div>
 			<div>
 				<ul class="flex">
-					<li><img src="imagenes/clientes/1.png" alt=""></li>
-					<li><img src="imagenes/clientes/2.png" alt=""></li>
-					<li><img src="imagenes/clientes/3.png" alt=""></li>
+					<li><img src="imagenes/clientes/7.png" alt=""></li>
+					<li><img src="imagenes/clientes/8.png" alt=""></li>
+					<li><img src="imagenes/clientes/9.png" alt=""></li>
+				</ul>
+			</div>
+			<div>
+				<ul class="flex">
+					<li><img src="imagenes/clientes/9.png" alt=""></li>
 				</ul>
 			</div>
 			
@@ -346,15 +380,18 @@
 		<div class="owl-three owl-carousel owl-theme">
 			<div data-dot="<button id='' class='owl-dot margin' role='button'><span></span></button>">
 				<h3>1 FUNDACIÓN NORDELTA</h3>
-				<p>Capacitación y organización junto a la Fundación Nordelta, para mejorar cada día condiciones sociales de los sectores más vulnerados</p>
+				<p>Capacitación y organización junto a la Fundación Nordelta, para mejorar cada día condiciones sociales de los sectores más vulnerables</p>
+				<a href="http://www.fundacionnordelta.org" target="_blank"><h4>www.fundacionnordelta.org</h4></a>
 			</div>
 			<div data-dot="<button id='' class='owl-dot margin' role='button'><span></span></button>">
-				<h3>1 FUNDACIÓN NORDELTA</h3>
-				<p>Capacitación y organización junto a la Fundación Nordelta, para mejorar cada día condiciones sociales de los sectores más vulnerados</p>
+				<h3>2 PRIAR - BANCO GALICIA</h3>
+				<p>El Programa Interactivo de Ayuda por Regiones se concentra principalmente en las áreas de salud, educación y alimentación.</p>
+				<a href="http://www.priar.org.ar" target="_blank"><h4>www.priar.org.ar</h4></a>
 			</div>
 			<div data-dot="<button id='' class='owl-dot margin' role='button'><span></span></button>">
-				<h3>1 FUNDACIÓN NORDELTA</h3>
-				<p>Capacitación y organización junto a la Fundación Nordelta, para mejorar cada día condiciones sociales de los sectores más vulnerados</p>
+				<h3>3 FUNDACIÓN HOSPITAL DE PEDIATRÍA GARRAHAN</h3>
+				<p>Programa de reciclado de papel.</p>
+				<a href="http://www.vaporlospibes.com.ar" target="_blank"><h4>www.vaporlospibes.com.ar</h4></a>
 			</div>
 		</div>
 	</div>
@@ -365,44 +402,33 @@
 		<h1>CONTACTANOS</h1>
 		<hr>
 	</div>
-	<div class="container-fluid">
-		<div id="map" style="height: 389px;width:105%;"></div>
-	</div>
+		<div id="map" style="height: 389px;"></div>
 </section>
-<section id="contacto-form" style="background-image:url(imagenes/BkGround/contacto.jpg); padding-top:0!important;" class="background" style="">
+<section id="contacto-form" style="background-image:url(imagenes/BkGround/contacto.jpg);" class="background" style="">
 	<div class="row background"  >
 		<div class="container" style="padding:14px">
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<img src="imagenes/logo-header-contact.png" alt="Estudio Palmero de Belizan" >
-					<h3>HORARIO DE ATENCIÓN</h3>
+					<h3>CONTACTO</h3>
+					<p>Reconquista 660 (1003), C.A.B.A, Argentina</p>
+					<p><span>Tel:</span>+54 11 7078 8500</p>
+					<p><span>Mail:</span>info@epb.com.ar</p>
+					
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<h3>HORARIO DE ATENCIÓN</h3>
 					<p>Lunes a viernes de 9 a 19hs</p>
 					<p>Sábados de 8 a 12 hs</p>
 					<h3>SEGUINOS EN</h3>
-					<i class="fa fa-facebook left"></i><p class="left">/EPByasoc</p>
-					<br><br>
-					<i class="fab fa-linkedin-in left"></i><p class="left">/EPByasoc</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<h3>CONSULTAS</h3>
-				<form action="">
-					<label for="nombre">Nombre:</label>
-					<input type="text" name="nombre" id="nombre" placeholder="Ej: Juan Gomez" class="form-control">
-					<label for="email">Email:</label>
-					<input type="email" name="email" id="email" placeholder="Ej:juangomez@gmail.com" class="form-control">
-					<label for="asunto">Asunto:</label>
-					<input type="text" name="asunto" id="asunto" class="form-control">
-					<label for="mensaje">Mensaje:</label>
-					<textarea name="mensae" id="" cols="30" rows="10" class="form-control"></textarea>
-					<br>
-					<button class="btn right">ENVIAR</button>
+					<a href="https://www.facebook.com/pages/biz/company/Estudio-Palmero-de-Belizan-y-Asociados-SA-1370207849695490/" target="_blank" class="left"><i class="fa fa-facebook"></i></a>
 
-				</form>
+					<a href="https://ar.linkedin.com/company/estudio-palmero-de-beliz%C3%A1n-y-asoc-" target="_blank" class="left" style="margin-left:4%"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<ul>
-					<li><h4>Contacto <span>Comercial</span> <span class="right">></span></h4></li>
-					<li><h4>Trabaja <span>con nosotros</span> <span class="right">></span></h4></li>
-					<li><h4>Gestión <span>de cobranzas</span> <span class="right">></span> </h4></li>
+					<li><h3>Contacto <span>Comercial</span> <span class="right">></span></h3></li>
+					<li><h3>Trabaja <span>con nosotros</span> <span class="right">></span></h3></li>
+					<li><h3>Gestión <span>de cobranzas</span> <span class="right">></span> </h3></li>
 				</ul>
 			</div>
 		</div>
